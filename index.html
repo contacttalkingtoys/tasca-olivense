@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tasca Olivense, cocina mediterránea casera en Oliva</title>
+<meta name="description" content="Tasca Olivense, en Oliva (Valencia): cocina mediterránea casera, menú del día, arroces por encargo, carnes a la brasa y terraza. Calle Beatriu de Centelles, 5. Reservas: 962 855 633.">
+<meta name="theme-color" content="#ff7a1f">
+<meta property="og:type" content="restaurant">
+<meta property="og:title" content="Tasca Olivense, cocina mediterránea casera en Oliva">
+<meta property="og:description" content="Arroces, brasa y terraza en el centro de Oliva. Menú del día y cocina casera desde las 8:00. Reservas: 962 855 633.">
+<meta property="og:image" content="assets/og.jpg">
+<meta property="og:locale" content="es_ES">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preload" href="assets/fonts/hanken-500-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/style.css">
+<style>:focus-visible{outline:3px solid var(--ink);outline-offset:3px;border-radius:4px}</style>
+<script>document.documentElement.classList.add('js');</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Restaurant",
+  "name": "Tasca Olivense",
+  "description": "Cocina mediterránea casera en Oliva: menú del día, tapas, arroces por encargo, carnes a la brasa y terraza.",
+  "image": "assets/og.jpg",
+  "servesCuisine": ["Mediterránea", "Valenciana", "Española"],
+  "priceRange": "€€",
+  "telephone": "+34962855633",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Carrer de Beatriu de Centelles, 5",
+    "postalCode": "46780",
+    "addressLocality": "Oliva",
+    "addressRegion": "Valencia",
+    "addressCountry": "ES"
+  },
+  "geo": {"@type": "GeoCoordinates", "latitude": 38.9243846, "longitude": -0.120666},
+  "openingHoursSpecification": [
+    {"@type": "OpeningHoursSpecification", "dayOfWeek": ["Tuesday","Wednesday","Thursday"], "opens": "08:00", "closes": "23:30"},
+    {"@type": "OpeningHoursSpecification", "dayOfWeek": ["Friday","Saturday","Sunday"], "opens": "08:00", "closes": "00:00"}
+  ],
+  "hasMenu": "carta.html",
+  "acceptsReservations": "tel:+34962855633",
+  "sameAs": ["https://www.instagram.com/restaurante.tascaolivense/", "https://www.facebook.com/tascaolivense"]
+}
+</script>
+</head>
+<body>
+
+<header class="nav">
+  <a class="brand" href="index.html" aria-label="Tasca Olivense, inicio"><b>Tasca Olivense</b><span>Oliva</span></a>
+  <nav aria-label="Principal">
+    <ul class="nav__links" id="navlinks">
+      <li><a href="carta.html">Carta</a></li>
+      <li><a href="#casa">La casa</a></li>
+      <li><a href="#resenas">Reseñas</a></li>
+      <li><a href="#visita">Dónde estamos</a></li>
+    </ul>
+  </nav>
+  <a class="nav__tel" href="tel:+34962855633">962 855 633</a>
+  <button class="burger" id="burger" aria-expanded="false" aria-controls="navlinks" aria-label="Abrir menú"><span></span></button>
+</header>
+
+<main id="inicio">
+
+  <section class="hero" aria-labelledby="t-hero">
+    <div class="hero__inner">
+      <div class="hero__copy">
+        <h1 id="t-hero">Arroces, brasa<br>y terraza</h1>
+        <p class="hero__lead">Cocina mediterránea casera, hecha al momento, en el centro de Oliva.</p>
+        <div class="hero__actions">
+          <a class="btn" href="#reservar">Reservar mesa</a>
+          <a class="tlink" href="carta.html">Ver la carta</a>
+        </div>
+        <p class="hero__proof"><span><b>4,2</b> en Google, 1.191 reseñas</span><span>De martes a domingo, desde las 8:00</span><span>Terraza y grupos</span></p>
+      </div>
+    </div>
+    <div class="hero__disc" aria-hidden="true">
+      <span class="ring"></span>
+      <img src="assets/arroz.webp" width="800" height="1000" alt="" fetchpriority="high">
+    </div>
+  </section>
+
+  <section class="statement">
+    <p>Arroz<span class="thumb"><img src="assets/paella.webp" alt="Paella valenciana de Tasca Olivense" width="1000" height="750"></span>, brasa<span class="thumb"><img src="assets/brasa.webp" alt="Carnes a la brasa con patatas" width="900" height="675"></span> y huerta<span class="thumb"><img src="assets/bocata.webp" alt="Bocadillo de la casa" width="800" height="600"></span>: la cocina de siempre.</p>
+    <p class="statement__foot">Carta de más de 100 platos. Menú del día y arroces por encargo.</p>
+  </section>
+
+  <section class="section" id="carta" aria-labelledby="t-carta">
+    <div class="wrap">
+      <div class="section__head">
+        <h2 id="t-carta">Lo que sale de la cocina</h2>
+        <p class="section__note">Precios de la carta de la casa. Arroces y fideuás por encargo.</p>
+      </div>
+      <div class="menu">
+        <article class="menu__item">
+          <div class="menu__pic"><img src="assets/paella.webp" alt="Paella valenciana" width="1000" height="750" loading="lazy"></div>
+          <div><div class="menu__name"><h3>Paella valenciana</h3><span class="price">14,50 €</span></div><p class="menu__desc">Pollo, conejo y verdura. Por encargo.</p></div>
+        </article>
+        <article class="menu__item">
+          <div class="menu__pic"><img src="assets/fideua.webp" alt="Fideuá de marisco" width="900" height="675" loading="lazy"></div>
+          <div><div class="menu__name"><h3>Fideuá de marisco</h3><span class="price">18,00 €</span></div><p class="menu__desc">Por encargo. Mínimo dos raciones.</p></div>
+        </article>
+        <article class="menu__item">
+          <div class="menu__pic"><img src="assets/burger.webp" alt="Burger de buey con patatas" width="900" height="675" loading="lazy"></div>
+          <div><div class="menu__name"><h3>Burger de Buey</h3><span class="price">15,90 €</span></div><p class="menu__desc">230 g, cheddar, bacon, pepinillo y patatas.</p></div>
+        </article>
+        <article class="menu__item">
+          <div class="menu__pic"><img src="assets/brasa.webp" alt="Chuletas a la brasa" width="900" height="675" loading="lazy"></div>
+          <div><div class="menu__name"><h3>Chuletón gallego</h3><span class="price">35,00 €</span></div><p class="menu__desc">700 g a la brasa, con guarnición y patatas.</p></div>
+        </article>
+        <article class="menu__item">
+          <div class="menu__pic"><img src="assets/codillo.webp" alt="Codillo asado crujiente" width="900" height="675" loading="lazy"></div>
+          <div><div class="menu__name"><h3>Codillo asado</h3><span class="price">20,50 €</span></div><p class="menu__desc">Crujiente por fuera, en su jugo. Con patatas.</p></div>
+        </article>
+        <article class="menu__item">
+          <div class="menu__pic"><img src="assets/pizza.webp" alt="Pizza casera" width="900" height="675" loading="lazy"></div>
+          <div><div class="menu__name"><h3>Pizza Tasca Olivense</h3><span class="price">12,50 €</span></div><p class="menu__desc">Tomate, mozzarella, atún, bacon, huevo y aceitunas.</p></div>
+        </article>
+        <article class="menu__item">
+          <div class="menu__pic menu__pic--dot" aria-hidden="true"></div>
+          <div><div class="menu__name"><h3>Sepia a la plancha</h3><span class="price">19,80 €</span></div><p class="menu__desc">Con guarnición y patatas, al gusto del chef.</p></div>
+        </article>
+        <article class="menu__item">
+          <div class="menu__pic menu__pic--dot" aria-hidden="true"></div>
+          <div><div class="menu__name"><h3>Croquetas de carrillada</h3><span class="price">4,90 €</span></div><p class="menu__desc">Caseras, dos unidades.</p></div>
+        </article>
+        <article class="menu__item">
+          <div class="menu__pic menu__pic--dot" aria-hidden="true"></div>
+          <div><div class="menu__name"><h3>Figatells de sepia</h3><span class="price">8,00 €</span></div><p class="menu__desc">Especialidad de la Tasca. Dos unidades.</p></div>
+        </article>
+        <article class="menu__item">
+          <div class="menu__pic menu__pic--dot" aria-hidden="true"></div>
+          <div><div class="menu__name"><h3>Ensalada de la Terreta</h3><span class="price">18,50 €</span></div><p class="menu__desc">Tomate de la huerta, mojama, aguacate y anchoa.</p></div>
+        </article>
+      </div>
+      <div class="menu__more">
+        <a class="btn btn--ghost" href="carta.html">Ver la carta completa</a>
+        <p>Más de 100 platos: tapas, ensaladas, pizzas, hamburguesas, arroces, carnes, pescados y menú infantil.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--bone" id="casa" aria-labelledby="t-casa">
+    <div class="wrap">
+      <div class="casa">
+        <div>
+          <h2 id="t-casa">Una tasca de barrio, con mesa para todos</h2>
+          <p>Cocinamos platos caseros desde hace años en el centro de Oliva.</p>
+          <p>Producto fresco y recetas de siempre: tapas, menú del día, arroces por encargo y carnes a la brasa. Comedor para grupos y terraza para los días largos.</p>
+          <ul class="facts">
+            <li><span>Cocina</span><b>Mediterránea casera</b></li>
+            <li><span>Especialidad</span><b>Arroces y brasa</b></li>
+            <li><span>Mediodía</span><b>Menú del día</b></li>
+            <li><span>Terraza</span><b>Sí, admite perros</b></li>
+            <li><span>Grupos y niños</span><b>Menús y tronas</b></li>
+            <li><span>Precio medio</span><b>10 a 20 € por persona</b></li>
+          </ul>
+        </div>
+        <figure class="casa__fig"><img src="assets/interior.webp" alt="Comedor de Tasca Olivense con mesas vestidas y el mural de la pared" width="1400" height="787" loading="lazy"></figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="t-gal">
+    <div class="wrap">
+      <div class="gallery">
+        <div class="gallery__txt">
+          <h2 id="t-gal">La casa, por dentro</h2>
+          <p>Comedor amplio para celebraciones, terraza cubierta todo el año y platos que salen como salen de casa: sin prisa.</p>
+        </div>
+              <div>
+          <div class="frame" id="frame" role="button" tabindex="0" aria-label="Ver la siguiente foto de la galería">
+            <img src="assets/interior-card.webp" alt="Comedor del restaurante" width="800" height="600">
+            <img src="assets/terraza.webp" alt="Terraza cubierta con mesas y sillas" width="900" height="675">
+            <img src="assets/pizza.webp" alt="Pizza recién hecha" width="900" height="675">
+            <img src="assets/brasa.webp" alt="Chuletas a la brasa con patatas" width="900" height="675">
+            <img src="assets/codillo.webp" alt="Codillo asado" width="900" height="675">
+            <img src="assets/bocata.webp" alt="Bocadillo de la casa" width="800" height="600">
+          </div>
+          <p class="gallery__cap" id="cap">El comedor</p>
+        </div>
+              </div>
+    </div>
+  </section>
+
+  <section class="section section--ink" id="resenas" aria-labelledby="t-resenas">
+    <div class="wrap">
+      <div class="score">
+        <div class="score__title"><h2 id="t-resenas">Lo que se dice en la mesa de al lado</h2></div>
+        <div class="score__num">
+          <p class="score__big" aria-hidden="true">4,2</p>
+          <p class="dots" aria-label="4,2 de 5 estrellas"><i></i><i></i><i></i><i></i><i class="off"></i></p>
+          <p class="score__meta">1.191 reseñas en Google</p>
+        </div>
+        <div class="quotes">
+          <blockquote class="quote">
+            <p>El menú tiene una relación calidad-precio estupenda. El trato fue excelente y en la terraza sacaron un cuenco de agua a nuestra perrita.</p>
+            <cite>Carlos, Google (hace 4 meses)</cite>
+          </blockquote>
+          <blockquote class="quote">
+            <p>De primero un «escombro» buenísimo, y luego unas burguer XXL brutalmente buenas. Volveremos a probar su extensa carta.</p>
+            <cite>Ali Cia, Google (hace un año)</cite>
+          </blockquote>
+          <blockquote class="quote">
+            <p>Comimos a la carta y buenísimo todo: el churrasco, el codillo y las costillas. Los camareros, estupendos.</p>
+            <cite>Vicente Hernández, Google (hace 2 meses)</cite>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="visita" aria-labelledby="t-visita">
+    <div class="wrap">
+      <div class="section__head">
+        <h2 id="t-visita">Dónde estamos</h2>
+        <p class="section__note">En el centro de Oliva, con aparcamiento libre en la calle y en el entorno.</p>
+      </div>
+      <div class="visit">
+        <div>
+          <div class="map" id="map">
+            <div class="map__tiles" aria-hidden="true">
+              <img src="assets/mapa.webp" alt="" width="1024" height="768">
+            </div>
+            <span class="map__pin" aria-hidden="true"></span>
+            <button class="btn btn--o map__cta" id="mapbtn" type="button">Ver mapa</button>
+          </div>
+          <p class="small" style="margin-top:10px;color:var(--ink-64)">Carrer de Beatriu de Centelles, 5. 46780 Oliva (Valencia). Mapa © OpenStreetMap.</p>
+        </div>
+        <div>
+          <div class="visit__block">
+            <h3>Horario</h3>
+            <div class="hours" id="hours">
+              <div data-dia="1"><span>Lunes</span><span>Cerrado</span></div>
+              <div data-dia="2"><span>Martes</span><span>8:00 a 23:30</span></div>
+              <div data-dia="3"><span>Miércoles</span><span>8:00 a 23:30</span></div>
+              <div data-dia="4"><span>Jueves</span><span>8:00 a 23:30</span></div>
+              <div data-dia="5"><span>Viernes</span><span>8:00 a 00:00</span></div>
+              <div data-dia="6"><span>Sábado</span><span>8:00 a 00:00</span></div>
+              <div data-dia="0"><span>Domingo</span><span>8:00 a 00:00</span></div>
+            </div>
+          </div>
+          <div class="visit__block">
+            <h3>Contacto</h3>
+            <p><a href="tel:+34962855633">962 855 633</a><br>Reservas por teléfono, también para grupos.</p>
+          </div>
+          <div class="visit__block">
+            <h3>Cómo llegar</h3>
+            <p><a href="https://www.google.com/maps/dir/?api=1&destination=38.9243846,-0.120666" target="_blank" rel="noopener">Abrir la ruta en Google Maps</a><br>Terraza accesible, tronas y menú infantil.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="reservar" aria-labelledby="t-reservar">
+    <div class="wrap">
+      <div class="coupon">
+        <div>
+          <h2 id="t-reservar">Reservar mesa</h2>
+          <p>Llámanos y te la guardamos. Para grupos, avisa con tiempo y preparamos el menú.</p>
+        </div>
+        <div class="coupon__perf" aria-hidden="true"></div>
+        <div class="coupon__side">
+          <a class="telbox" href="tel:+34962855633"><small>Teléfono de reservas</small>962 855 633</a>
+          <p class="coupon__hours">Martes a jueves, 8:00 a 23:30<br>Viernes a domingo, 8:00 a 00:00<br>Lunes cerrado</p>
+          <div class="coupon__actions">
+            <a class="btn btn--o" href="tel:+34962855633">Llamar ahora</a>
+            <a class="btn btn--light" href="https://www.google.com/maps/dir/?api=1&destination=38.9243846,-0.120666" target="_blank" rel="noopener">Cómo llegar</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <div class="foot__top">
+      <div class="mark"><h2 class="sr">Tasca Olivense</h2>
+        <span aria-hidden="true"><i>T</i><i>A</i><i>S</i><i>C</i><i>A</i></span>
+        <span aria-hidden="true"><i>O</i><i>L</i><i>I</i><i>V</i><i>E</i><i>N</i><i>S</i><i>E</i></span>
+      </div>
+      <div class="foot__res">
+        <p class="small">Reservas</p>
+        <a href="tel:+34962855633">962 855 633</a>
+        <p class="small">Carrer de Beatriu de Centelles, 5<br>46780 Oliva, Valencia<br>Martes a domingo, desde las 8:00</p>
+      </div>
+    </div>
+    <div class="foot__cols">
+      <div><h3>La carta</h3><ul>
+        <li><a href="carta.html">Carta completa</a></li>
+        <li><a href="carta.html#arroz">Arroces y fideuás</a></li>
+        <li><a href="carta.html#carne">Carnes a la brasa</a></li>
+        <li><a href="carta.html#burger">Hamburguesas</a></li>
+      </ul></div>
+      <div><h3>La casa</h3><ul>
+        <li><a href="#casa">Quiénes somos</a></li>
+        <li><a href="#resenas">Reseñas</a></li>
+        <li><a href="#visita">Dónde estamos</a></li>
+        <li><a href="#reservar">Reservar</a></li>
+      </ul></div>
+      <div><h3>Contacto</h3><ul>
+        <li>Carrer de Beatriu de Centelles, 5</li>
+        <li>46780 Oliva, Valencia</li>
+        <li><a href="tel:+34962855633">962 855 633</a></li>
+        <li><a href="https://www.instagram.com/restaurante.tascaolivense/" target="_blank" rel="noopener">Instagram</a>, <a href="https://www.facebook.com/tascaolivense" target="_blank" rel="noopener">Facebook</a></li>
+      </ul></div>
+      <div><h3>Legal</h3><ul>
+        <li><a href="aviso-legal.html">Aviso legal</a></li>
+        <li><a href="privacidad.html">Privacidad</a></li>
+        <li><a href="cookies.html">Cookies</a></li>
+      </ul></div>
+    </div>
+    <div class="foot__end">
+      <span>© <span id="anio">2026</span> Tasca Olivense, Oliva</span>
+      <span>Propuesta de diseño: Iván Codina</span>
+    </div>
+  </div>
+</footer>
+
+<nav class="mbar" aria-label="Acciones rápidas">
+  <a class="m1" href="tel:+34962855633">Llamar</a>
+  <a class="m2" href="carta.html">Carta</a>
+  <a class="m3" href="https://www.google.com/maps/dir/?api=1&destination=38.9243846,-0.120666" target="_blank" rel="noopener">Cómo llegar</a>
+</nav>
+
+<script src="assets/main.js" defer></script>
+</body>
+</html>
